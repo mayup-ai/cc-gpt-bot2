@@ -1,15 +1,16 @@
 {
-  "name": "nodejs",
+  "name": "cc-gpt-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "キャリコン試験対策GPTボット",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "@line/bot-sdk": "^9.9.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "line-bot-sdk": "*"
   }
 }
